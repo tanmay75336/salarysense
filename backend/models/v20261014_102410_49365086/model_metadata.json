@@ -1,0 +1,300 @@
+{
+  "version": "v20261014_102410_49365086",
+  "dataset_name": "salary_data.csv",
+  "dataset_rows": 5000,
+  "dataset_hash": "49365086",
+  "feature_schema": [
+    "years_experience",
+    "education_level_Associate",
+    "education_level_Bachelor's Degree",
+    "education_level_Doctorate",
+    "education_level_High School",
+    "education_level_Master's Degree",
+    "job_title_AI Engineer",
+    "job_title_Business Analyst",
+    "job_title_Cloud Engineer",
+    "job_title_Cybersecurity Analyst",
+    "job_title_Data Analyst",
+    "job_title_Data Scientist",
+    "job_title_Database Administrator",
+    "job_title_DevOps Engineer",
+    "job_title_IT Support Engineer",
+    "job_title_Machine Learning Engineer",
+    "job_title_Mobile App Developer",
+    "job_title_Product Manager",
+    "job_title_QA Engineer",
+    "job_title_Software Engineer",
+    "job_title_UI UX Designer",
+    "job_title_Web Developer",
+    "country_Australia",
+    "country_Canada",
+    "country_Germany",
+    "country_India",
+    "country_Ireland",
+    "country_Netherlands",
+    "country_Singapore",
+    "country_United Arab Emirates",
+    "country_United Kingdom",
+    "country_United States",
+    "skills_Python",
+    "skills_SQL",
+    "skills_JavaScript",
+    "skills_Linux",
+    "skills_Java",
+    "skills_Excel",
+    "skills_Docker",
+    "skills_Networking",
+    "skills_CSS",
+    "skills_Bash",
+    "skills_Power BI",
+    "skills_TypeScript",
+    "skills_R",
+    "skills_PyTorch",
+    "skills_Tableau",
+    "skills_TensorFlow",
+    "skills_Jira",
+    "skills_HTML",
+    "skills_Terraform",
+    "skills_PowerShell",
+    "skills_MySQL",
+    "skills_Oracle",
+    "skills_FastAPI",
+    "skills_Windows",
+    "skills_Flutter",
+    "skills_Go",
+    "skills_C++",
+    "skills_Figma",
+    "skills_Node.js",
+    "skills_Kubernetes",
+    "programming_languages_Python",
+    "programming_languages_SQL",
+    "programming_languages_JavaScript",
+    "programming_languages_Linux",
+    "programming_languages_Java",
+    "programming_languages_Excel",
+    "programming_languages_Docker",
+    "programming_languages_Networking",
+    "programming_languages_CSS",
+    "programming_languages_Bash",
+    "programming_languages_Power BI",
+    "programming_languages_TypeScript",
+    "programming_languages_R",
+    "programming_languages_PyTorch",
+    "programming_languages_Tableau",
+    "programming_languages_TensorFlow",
+    "programming_languages_Jira",
+    "programming_languages_HTML",
+    "programming_languages_Terraform",
+    "programming_languages_PowerShell"
+  ],
+  "train_test_split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "n_train": 3000,
+    "n_val": 1000,
+    "n_test": 1000
+  },
+  "timestamp": "2026-10-14T10:24:10.200609",
+  "results": [
+    {
+      "model_name": "Multiple Linear Regression",
+      "algorithm": "linear_regression",
+      "hyperparameters": {},
+      "validation_metrics": {
+        "mae": 14365.688,
+        "mse": 377749429.568,
+        "rmse": 19435.77705078961,
+        "r2": 0.7564915224115056
+      },
+      "test_metrics": {
+        "mae": 13739.888,
+        "mse": 318179604.864,
+        "rmse": 17837.589659592464,
+        "r2": 0.7599151688464885
+      },
+      "cv_scores": null,
+      "training_time_seconds": 0.08059215545654297,
+      "n_training_samples": 3000,
+      "n_test_samples": 1000,
+      "warnings": []
+    },
+    {
+      "model_name": "Ridge Regression (L2)",
+      "algorithm": "ridge_regression",
+      "hyperparameters": {
+        "alpha": 1.0
+      },
+      "validation_metrics": {
+        "mae": 14356.916814189031,
+        "mse": 377678187.3485749,
+        "rmse": 19433.944204627503,
+        "r2": 0.7565374472575394
+      },
+      "test_metrics": {
+        "mae": 13720.537858837084,
+        "mse": 317561000.3290051,
+        "rmse": 17820.241309505465,
+        "r2": 0.7603819415844787
+      },
+      "cv_scores": {
+        "mean_cv_mae": [
+          14037.861947414896,
+          14022.294639686565,
+          14027.543425467817,
+          15596.978059130806
+        ],
+        "std_cv_mae": [
+          451.80280747637073,
+          452.58412191200244,
+          472.5739125442963,
+          522.2807369873432
+        ]
+      },
+      "training_time_seconds": 0.4009237289428711,
+      "n_training_samples": 3000,
+      "n_test_samples": 1000,
+      "warnings": []
+    },
+    {
+      "model_name": "Decision Tree Regressor",
+      "algorithm": "decision_tree",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_split": 5
+      },
+      "validation_metrics": {
+        "mae": 17255.356247019463,
+        "mse": 562097548.4265223,
+        "rmse": 23708.596508999057,
+        "r2": 0.6376552615046955
+      },
+      "test_metrics": {
+        "mae": 16897.270427433603,
+        "mse": 495969618.0039739,
+        "rmse": 22270.375344927932,
+        "r2": 0.6257623676204764
+      },
+      "cv_scores": {
+        "mean_cv_mae": [
+          20625.956580697304,
+          20625.956580697304,
+          18521.80067871144,
+          18519.745123155884,
+          16774.56159585292,
+          16679.34599301604
+        ],
+        "std_cv_mae": [
+          606.0384414208933,
+          606.0384414208933,
+          613.1888765685921,
+          615.5080331915708,
+          185.3264423187992,
+          198.6812416109139
+        ]
+      },
+      "training_time_seconds": 0.8358333110809326,
+      "n_training_samples": 3000,
+      "n_test_samples": 1000,
+      "warnings": []
+    },
+    {
+      "model_name": "Random Forest Regressor",
+      "algorithm": "random_forest",
+      "hyperparameters": {
+        "max_depth": null,
+        "n_estimators": 100
+      },
+      "validation_metrics": {
+        "mae": 13110.722047619047,
+        "mse": 332588160.7744638,
+        "rmse": 18236.9997744822,
+        "r2": 0.785603814711868
+      },
+      "test_metrics": {
+        "mae": 12411.714785714286,
+        "mse": 278189982.4391477,
+        "rmse": 16679.02822226606,
+        "r2": 0.7900896413802232
+      },
+      "cv_scores": {
+        "mean_cv_mae": [
+          17354.428615076202,
+          17331.54496475124,
+          13745.566384814063,
+          13650.301569174757,
+          12739.91561904762,
+          12636.44915873016
+        ],
+        "std_cv_mae": [
+          691.2668943063904,
+          738.3082185641965,
+          750.3704250807943,
+          770.7909878632631,
+          468.50668642824917,
+          548.7773016504601
+        ]
+      },
+      "training_time_seconds": 68.1781075000763,
+      "n_training_samples": 3000,
+      "n_test_samples": 1000,
+      "warnings": []
+    },
+    {
+      "model_name": "Gradient Boosting Regressor",
+      "algorithm": "gradient_boosting",
+      "hyperparameters": {
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "n_estimators": 100
+      },
+      "validation_metrics": {
+        "mae": 12275.385305998592,
+        "mse": 299687947.9422483,
+        "rmse": 17311.49756497826,
+        "r2": 0.8068122669609483
+      },
+      "test_metrics": {
+        "mae": 11433.625109050487,
+        "mse": 235695602.32260853,
+        "rmse": 15352.380998483868,
+        "r2": 0.8221540978044909
+      },
+      "cv_scores": {
+        "mean_cv_mae": [
+          17364.788929952938,
+          14183.608632751144,
+          15905.698848788832,
+          13096.677411262173,
+          14119.466640782075,
+          12317.168426829017,
+          13035.855335024122,
+          12026.220271739374
+        ],
+        "std_cv_mae": [
+          837.2826522539241,
+          728.333126052112,
+          846.3127079123421,
+          678.796706537273,
+          716.8914125494686,
+          533.9095333966545,
+          612.0459879209318,
+          526.0661416950114
+        ]
+      },
+      "training_time_seconds": 18.48944067955017,
+      "n_training_samples": 3000,
+      "n_test_samples": 1000,
+      "warnings": []
+    }
+  ],
+  "selected_model": "gradient_boosting",
+  "selection_criteria": "Selected strictly by lowest Validation MAE ($12,275.39; Validation R\u00b2: 0.807) | Runner-up: Random Forest Regressor (Val MAE: $13,110.72)",
+  "status": "completed",
+  "candidate_algorithms": [
+    "linear_regression",
+    "ridge_regression",
+    "decision_tree",
+    "random_forest",
+    "gradient_boosting"
+  ]
+}

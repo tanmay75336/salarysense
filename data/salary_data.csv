@@ -1,0 +1,65 @@
+years_experience,education_level,job_title,skills,programming_languages,country,annual_salary_usd
+0.5,High School,Junior Developer,"[""Git""]","[""Python""]",United States,45000
+1.0,High School,Junior Developer,"[""Git""]","[""Python""]",United States,52000
+1.5,Bachelor,Junior Developer,"[""Git"", ""SQL""]","[""Python"", ""JavaScript""]",United States,60000
+2.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker""]","[""Python"", ""JavaScript""]",United States,75000
+2.5,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS""]","[""Python"", ""JavaScript"", ""Java""]",United States,85000
+3.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes""]","[""Python"", ""JavaScript"", ""Java"", ""Go""]",United States,95000
+4.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript""]",United States,115000
+5.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust""]",United States,130000
+6.0,Master,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++""]",United States,145000
+7.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices"", ""Architecture""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++""]",United States,160000
+8.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices"", ""Architecture"", ""Mentoring""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++"", ""Scala""]",United States,175000
+9.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices"", ""Architecture"", ""Mentoring"", ""Research""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++"", ""Scala""]",United States,190000
+10.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices"", ""Architecture"", ""Mentoring"", ""Research"", ""Strategy""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++"", ""Scala"", ""Haskell""]",United States,205000
+0.5,High School,Junior Developer,[],"[""JavaScript""]",India,8000
+1.0,Bachelor,Junior Developer,"[""Git""]","[""JavaScript"", ""TypeScript""]",India,12000
+2.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker""]","[""JavaScript"", ""TypeScript"", ""Java""]",India,18000
+3.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS""]","[""JavaScript"", ""TypeScript"", ""Java"", ""Python""]",India,25000
+4.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes""]","[""JavaScript"", ""TypeScript"", ""Java"", ""Python"", ""Go""]",India,35000
+5.0,Master,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD""]","[""JavaScript"", ""TypeScript"", ""Java"", ""Python"", ""Go"", ""Rust""]",India,45000
+6.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform""]","[""JavaScript"", ""TypeScript"", ""Java"", ""Python"", ""Go"", ""Rust"", ""C++""]",India,55000
+7.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices""]","[""JavaScript"", ""TypeScript"", ""Java"", ""Python"", ""Go"", ""Rust"", ""C++"", ""Scala""]",India,70000
+0.5,High School,Junior Developer,[],"[""Python""]",Germany,35000
+1.0,Bachelor,Junior Developer,"[""Git""]","[""Python"", ""JavaScript""]",Germany,42000
+2.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker""]","[""Python"", ""JavaScript"", ""Java""]",Germany,55000
+3.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS""]","[""Python"", ""JavaScript"", ""Java"", ""Go""]",Germany,65000
+4.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript""]",Germany,78000
+5.0,Master,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust""]",Germany,90000
+6.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++""]",Germany,105000
+7.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++"", ""Scala""]",Germany,120000
+0.5,High School,Junior Developer,[],"[""Java""]",United Kingdom,30000
+1.0,Bachelor,Junior Developer,"[""Git""]","[""Java"", ""JavaScript""]",United Kingdom,38000
+2.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker""]","[""Java"", ""JavaScript"", ""Python""]",United Kingdom,48000
+3.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS""]","[""Java"", ""JavaScript"", ""Python"", ""Go""]",United Kingdom,58000
+4.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes""]","[""Java"", ""JavaScript"", ""Python"", ""Go"", ""TypeScript""]",United Kingdom,70000
+5.0,Master,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD""]","[""Java"", ""JavaScript"", ""Python"", ""Go"", ""TypeScript"", ""Rust""]",United Kingdom,82000
+6.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform""]","[""Java"", ""JavaScript"", ""Python"", ""Go"", ""TypeScript"", ""Rust"", ""C++""]",United Kingdom,95000
+7.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices""]","[""Java"", ""JavaScript"", ""Python"", ""Go"", ""TypeScript"", ""Rust"", ""C++"", ""Scala""]",United Kingdom,110000
+0.5,High School,Junior Developer,[],"[""Python""]",Canada,40000
+1.0,Bachelor,Junior Developer,"[""Git""]","[""Python"", ""JavaScript""]",Canada,48000
+2.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker""]","[""Python"", ""JavaScript"", ""Java""]",Canada,62000
+3.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS""]","[""Python"", ""JavaScript"", ""Java"", ""Go""]",Canada,72000
+4.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript""]",Canada,85000
+5.0,Master,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust""]",Canada,98000
+6.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++""]",Canada,110000
+7.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices""]","[""Python"", ""JavaScript"", ""Java"", ""Go"", ""TypeScript"", ""Rust"", ""C++"", ""Scala""]",Canada,125000
+0.5,High School,Junior Developer,[],"[""JavaScript""]",Australia,45000
+1.0,Bachelor,Junior Developer,"[""Git""]","[""JavaScript"", ""TypeScript""]",Australia,55000
+2.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker""]","[""JavaScript"", ""TypeScript"", ""Python""]",Australia,70000
+3.0,Bachelor,Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS""]","[""JavaScript"", ""TypeScript"", ""Python"", ""Go""]",Australia,82000
+4.0,Bachelor,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes""]","[""JavaScript"", ""TypeScript"", ""Python"", ""Go"", ""Rust""]",Australia,95000
+5.0,Master,Senior Software Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD""]","[""JavaScript"", ""TypeScript"", ""Python"", ""Go"", ""Rust"", ""C++""]",Australia,110000
+6.0,Master,Lead Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform""]","[""JavaScript"", ""TypeScript"", ""Python"", ""Go"", ""Rust"", ""C++"", ""Java""]",Australia,125000
+7.0,PhD,Principal Engineer,"[""Git"", ""SQL"", ""Docker"", ""AWS"", ""Kubernetes"", ""CI/CD"", ""Terraform"", ""Microservices""]","[""JavaScript"", ""TypeScript"", ""Python"", ""Go"", ""Rust"", ""C++"", ""Java"", ""Scala""]",Australia,140000
+1.0,Bachelor,Data Analyst,"[""SQL"", ""Excel"", ""Tableau""]","[""Python"", ""R""]",United States,65000
+2.0,Bachelor,Data Analyst,"[""SQL"", ""Excel"", ""Tableau"", ""PowerBI""]","[""Python"", ""R"", ""SQL""]",United States,75000
+3.0,Bachelor,Data Scientist,"[""SQL"", ""Tableau"", ""PowerBI"", ""ML""]","[""Python"", ""R"", ""SQL"", ""Java""]",United States,95000
+4.0,Master,Data Scientist,"[""SQL"", ""Tableau"", ""PowerBI"", ""ML"", ""Deep Learning""]","[""Python"", ""R"", ""SQL"", ""Java"", ""Scala""]",United States,115000
+5.0,Master,Senior Data Scientist,"[""SQL"", ""Tableau"", ""PowerBI"", ""ML"", ""Deep Learning"", ""MLOps""]","[""Python"", ""R"", ""SQL"", ""Java"", ""Scala"", ""Go""]",United States,135000
+6.0,PhD,Principal Data Scientist,"[""SQL"", ""Tableau"", ""PowerBI"", ""ML"", ""Deep Learning"", ""MLOps"", ""Research""]","[""Python"", ""R"", ""SQL"", ""Java"", ""Scala"", ""Go"", ""C++""]",United States,160000
+1.0,Bachelor,DevOps Engineer,"[""Git"", ""Docker"", ""AWS"", ""CI/CD""]","[""Python"", ""Bash"", ""Go""]",United States,80000
+2.0,Bachelor,DevOps Engineer,"[""Git"", ""Docker"", ""AWS"", ""CI/CD"", ""Kubernetes""]","[""Python"", ""Bash"", ""Go"", ""Terraform""]",United States,95000
+3.0,Bachelor,Senior DevOps Engineer,"[""Git"", ""Docker"", ""AWS"", ""CI/CD"", ""Kubernetes"", ""Terraform""]","[""Python"", ""Bash"", ""Go"", ""Terraform"", ""Rust""]",United States,115000
+4.0,Master,Senior DevOps Engineer,"[""Git"", ""Docker"", ""AWS"", ""CI/CD"", ""Kubernetes"", ""Terraform"", ""Monitoring""]","[""Python"", ""Bash"", ""Go"", ""Terraform"", ""Rust"", ""C++""]",United States,130000
+5.0,PhD,Principal DevOps Engineer,"[""Git"", ""Docker"", ""AWS"", ""CI/CD"", ""Kubernetes"", ""Terraform"", ""Monitoring"", ""Architecture""]","[""Python"", ""Bash"", ""Go"", ""Terraform"", ""Rust"", ""C++"", ""Java""]",United States,150000

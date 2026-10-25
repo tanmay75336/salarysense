@@ -1,0 +1,113 @@
+{
+  "version": "v20261013_234842_879fa1c5",
+  "dataset_name": "salary_data.csv",
+  "dataset_rows": 64,
+  "dataset_hash": "879fa1c5",
+  "feature_schema": [
+    "years_experience",
+    "education_level_Bachelor",
+    "education_level_High School",
+    "education_level_Master",
+    "education_level_PhD",
+    "job_title_Data Analyst",
+    "job_title_Data Scientist",
+    "job_title_DevOps Engineer",
+    "job_title_Junior Developer",
+    "job_title_Lead Engineer",
+    "job_title_Principal Data Scientist",
+    "job_title_Principal DevOps Engineer",
+    "job_title_Principal Engineer",
+    "job_title_Senior Data Scientist",
+    "job_title_Senior DevOps Engineer",
+    "job_title_Senior Software Engineer",
+    "job_title_Software Engineer",
+    "country_Australia",
+    "country_Canada",
+    "country_Germany",
+    "country_India",
+    "country_United Kingdom",
+    "country_United States",
+    "skills_Git",
+    "skills_SQL",
+    "skills_Docker",
+    "skills_AWS",
+    "skills_Kubernetes",
+    "skills_CI/CD",
+    "skills_Terraform",
+    "skills_Microservices",
+    "skills_Tableau",
+    "skills_Architecture",
+    "skills_PowerBI",
+    "skills_ML",
+    "skills_Deep Learning",
+    "skills_Mentoring",
+    "skills_Research",
+    "skills_Excel",
+    "skills_MLOps",
+    "skills_Monitoring",
+    "skills_Strategy",
+    "programming_languages_Python",
+    "programming_languages_JavaScript",
+    "programming_languages_Java",
+    "programming_languages_Go",
+    "programming_languages_TypeScript",
+    "programming_languages_Rust",
+    "programming_languages_C++",
+    "programming_languages_Scala",
+    "programming_languages_R",
+    "programming_languages_SQL",
+    "programming_languages_Bash",
+    "programming_languages_Terraform",
+    "programming_languages_Haskell"
+  ],
+  "train_test_split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "n_train": 38,
+    "n_val": 13,
+    "n_test": 13
+  },
+  "timestamp": "2026-10-13T23:48:42.530991",
+  "results": [
+    {
+      "model_name": "Multiple Linear Regression",
+      "algorithm": "linear_regression",
+      "hyperparameters": {},
+      "validation_metrics": {
+        "mae": 13475.550482854393,
+        "mse": 314316060.3122644,
+        "rmse": 17728.96106127667,
+        "r2": 0.814366440937779
+      },
+      "test_metrics": {
+        "mae": 5379.38015639969,
+        "mse": 59820512.658327535,
+        "rmse": 7734.372156699439,
+        "r2": 0.973481728704005
+      },
+      "cv_scores": null,
+      "training_time_seconds": 0.004034996032714844,
+      "n_training_samples": 38,
+      "n_test_samples": 13,
+      "warnings": []
+    },
+    {
+      "model_name": "Ridge Regression",
+      "algorithm": "ridge_regression",
+      "hyperparameters": {
+        "alpha": 0.1
+      },
+      "validation_metrics": {
+        "mae": 13080.04903141768,
+        "mse": 311083661.1460415,
+        "rmse": 17637.563923230486,
+        "r2": 0.8162754803961496
+      },
+      "test_metrics": {
+        "mae": 4938.758054565927,
+        "mse": 40396706.56725024,
+        "rmse": 6355.840350988234,
+        "r2": 0.9820922493537688
+      },
+      "cv_scores": {
+        "mean_cv_mae": 
